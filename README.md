@@ -1,5 +1,5 @@
 # ymgk-java-services
-----------------------------------------Fırat Üniversitesi Yazılım Mühendisliği Güncel Konular Projesi----------------------------------------
+-----------------------------Fırat Üniversitesi Yazılım Mühendisliği Güncel Konular Projesi-----------------------------
 Takım Üyeleri:
 1-Hamza Pamuk-170541032
 2-Murat Doğan -170541059
@@ -15,7 +15,7 @@ Lütfen Aşşağıdaki Adımları Takip Ediniz:
 3-Uygun ve boş portta projeyi ayağa kaldırınız.
 
 ----------Önemli Not----------
-Proje bir microservistir. Htlml verilerini aşşağıdaki githup linkindeki projeden almaktadır. Dolayısıyla veri tabanınızı 2. proje olan pyton scriptinden çekmeniz
+Proje bir microservistir. Html verilerini aşşağıdaki githup linkindeki projeden almaktadır. Dolayısıyla veri tabanınızı 2. proje olan pyton scriptinden çekmeniz
 gerekmektedir.
 Proje linki: https://github.com/hamzapamuk23/ymgk-python-scripts
 
