@@ -15,7 +15,7 @@ Lütfen Aşşağıdaki Adımları Takip Ediniz:
 3-Uygun ve boş portta projeyi ayağa kaldırınız.
 
 ----------Önemli Not----------
-Proje bir microservistir. Html verilerini aşşağıdaki githup linkindeki projeden almaktadır. Dolayısıyla veri tabanınızı 2. proje olan pyton scriptinden çekmeniz
+Proje bir microservistir. Html verilerini aşşağıdaki githup linkindeki projeden almaktadır. Dolayısıyla veri tabanınıza verileri 2. proje olan pyton scriptinden çekmeniz
 gerekmektedir.
 Proje linki: https://github.com/hamzapamuk23/ymgk-python-scripts
 
