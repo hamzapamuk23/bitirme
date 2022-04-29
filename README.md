@@ -1,5 +1,5 @@
 # ymgk-java-services
-------------------------------------------Fırat Üniversitesi Yazılım Mühendisliği Güncel Konular Projesi------------------------------------------
+-----------------------------------------------Fırat Üniversitesi Yazılım Mühendisliği Güncel Konular Projesi-----------------------------------------------
 Takım Üyeleri:
 1-Hamza Pamuk-170541032
 2-Murat Doğan -170541059
