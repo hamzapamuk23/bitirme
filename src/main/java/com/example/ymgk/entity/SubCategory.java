@@ -1,4 +1,4 @@
-package com.example.bitirme.entity;
+package com.example.ymgk.entity;
 
 import java.util.UUID;
 
