@@ -39,6 +39,9 @@ public class Product
     private UUID id;
 
     @Column(nullable = false)
+    private String id1;
+
+    @Column(nullable = false)
     private String name;
 
     @Column(nullable = false)
@@ -47,12 +50,12 @@ public class Product
     @Column(nullable = false)
     private String url;
 
-    @Column(nullable = false)
+    @Column(nullable = true)
     private String imageUrl;
 
     @Type(type = "jsonb")
     @Column(name="productDetail",columnDefinition = "jsonb", nullable = true)
-    private Map<String, Object> productDetail;
+    private Map<String, Object> detail;
 
     @ManyToOne()
     @RestResource(exported = false)
