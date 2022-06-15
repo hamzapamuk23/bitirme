@@ -30,16 +30,15 @@ import lombok.NoArgsConstructor;
 @Entity
 @TypeDef(name = "jsonb", typeClass = JsonBinaryType.class)
 @Table(name = "product")
-public class Product  
-{
+public class Product {
     @Id
     @GeneratedValue(generator = "UUID")
-    @GenericGenerator( name = "UUID", strategy = "org.hibernate.id.UUIDGenerator")
+    @GenericGenerator(name = "UUID", strategy = "org.hibernate.id.UUIDGenerator")
     @Column(name = "id", updatable = false, nullable = false)
     private UUID id;
 
     @Column(nullable = false)
-    private String id1;
+    private String platformId;
 
     @Column(nullable = false)
     private String name;
@@ -53,13 +52,16 @@ public class Product
     @Column(nullable = true)
     private String imageUrl;
 
+    @Column(nullable = true)
+    private String platformName;
+
     @Type(type = "jsonb")
-    @Column(name="productDetail",columnDefinition = "jsonb", nullable = true)
+    @Column(name = "productDetail", columnDefinition = "jsonb", nullable = true)
     private Map<String, Object> detail;
 
     @ManyToOne()
     @RestResource(exported = false)
-    @JoinColumn(name = "category_id", nullable = false)
+    @JoinColumn(name = "category_id", nullable = true)
     @OnDelete(action = OnDeleteAction.NO_ACTION)
     private Category category;
 

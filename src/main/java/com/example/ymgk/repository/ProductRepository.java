@@ -19,8 +19,8 @@ public interface ProductRepository extends JpaRepository<Product,UUID>
     Page<Product> findCheapestProduct(@Param("name") String name, Pageable p);
 
     @Query(value = "SELECT p.name,min(p.price) from Product p Group by p.name",nativeQuery = true)
-    Page<Product> getProduct(Pageable p);
+    Page<Product> getProducts(Pageable p);
 
-    @Query("Select p from Product p")
-    List<Product> getListProduct();
+    @Query("SELECT p FROM Product p WHERE p.id = :id")
+    List<Product> getProduct(@Param("id") UUID id);
 }
